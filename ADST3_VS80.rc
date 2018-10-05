@@ -1,0 +1,345 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ADST3_VS80"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ADST3_VS80 Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_ADST3_VS80_DIALOG DIALOGEX 0, 0, 375, 446
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "ADST3 V2.4"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,139,432,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,190,432,50,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_LOG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,362,369,81
+    EDITTEXT        IDC_EDIT_PRODUCT_SEL,28,36,293,20,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "<<",IDC_BTN_PREV,3,35,23,21
+    PUSHBUTTON      ">>",IDC_BTN_NEXT,323,36,23,20
+    CTEXT           "Ready",IDC_STT_IN0,93,115,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN1,93,145,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN2,93,175,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN3,93,205,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN4,93,235,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN5,93,265,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN6,93,295,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_IN7,93,325,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT0,278,115,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT1,278,145,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT2,278,175,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT3,278,205,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    PUSHBUTTON      "FLUKE",IDC_BTN_FLUKE_SETTING,197,87,50,18,WS_DISABLED
+    PUSHBUTTON      "YOKOGAWA",IDC_BTN_YKGW_SETTING,12,87,50,18,WS_DISABLED
+    CTEXT           "IN0",IDC_STT_INCH0,12,115,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN1",IDC_STT_INCH1,12,145,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN2",IDC_STT_INCH2,12,175,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN3",IDC_STT_INCH3,12,205,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN4",IDC_STT_INCH4,12,235,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN5",IDC_STT_INCH5,12,265,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN6",IDC_STT_INCH6,12,295,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "IN7",IDC_STT_INCH7,12,325,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT0",IDC_STT_OUTCH0,196,116,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT1",IDC_STT_OUTCH1,196,146,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT2",IDC_STT_OUTCH2,196,176,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT3",IDC_STT_OUTCH3,196,206,34,30,SS_CENTERIMAGE | WS_DISABLED
+    PUSHBUTTON      "EXIT",IDC_BTN_EXIT,299,5,72,21
+    CONTROL         "Voltage",IDC_CHK_INP_MODE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_DISABLED | WS_TABSTOP,12,70,50,14
+    CTEXT           "Ready",IDC_STT_YKGW,93,74,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_FLUKE,278,74,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT4,278,235,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT5,278,265,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT6,278,295,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "Ready",IDC_STT_OUT7,278,325,72,30,SS_CENTERIMAGE | WS_DISABLED | WS_BORDER
+    CTEXT           "OUT4",IDC_STT_OUTCH4,196,236,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT5",IDC_STT_OUTCH5,196,266,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT6",IDC_STT_OUTCH6,196,296,34,30,SS_CENTERIMAGE | WS_DISABLED
+    CTEXT           "OUT7",IDC_STT_OUTCH7,196,326,34,30,SS_CENTERIMAGE | WS_DISABLED
+    LTEXT           "Product Name  ",IDC_STT_PRODUCT_NAME,30,26,78,8,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_BTN_OUT0,231,115,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT1,231,145,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT2,231,175,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT3,231,205,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT4,231,235,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT5,231,265,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT6,231,295,39,30
+    PUSHBUTTON      "",IDC_BTN_OUT7,231,325,39,30
+    PUSHBUTTON      "",IDC_BTN_IN0,47,115,39,30
+    PUSHBUTTON      "",IDC_BTN_IN1,47,145,39,30
+    PUSHBUTTON      "",IDC_BTN_IN2,47,175,39,30
+    PUSHBUTTON      "",IDC_BTN_IN3,47,205,39,30
+    PUSHBUTTON      "",IDC_BTN_IN4,47,235,39,30
+    PUSHBUTTON      "",IDC_BTN_IN5,47,265,39,30
+    PUSHBUTTON      "",IDC_BTN_IN6,47,295,39,30
+    PUSHBUTTON      "",IDC_BTN_IN7,47,325,39,30
+    PUSHBUTTON      "",IDC_BTN_YKGW_FILE_OPEN,68,87,18,18,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "",IDC_BTN_FLUKE_FILE_OPEN,199,105,18,18,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "",IDC_BTN_PROD_FILE_OPEN,348,36,23,21
+    PUSHBUTTON      "CLEAR LOG",IDC_BTN_CLRLOG,2,5,72,21
+    GROUPBOX        "Analog Input",IDC_STT_AI,2,59,181,300
+    GROUPBOX        "Analog Output",IDC_STT_AO,184,59,187,300
+    CONTROL         "",IDC_SPIN_INPBYTE,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_HORZ,68,79,18,18
+    CONTROL         "",IDC_SPIN_OUTPBYTE,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_HORZ,254,80,18,18
+    PUSHBUTTON      "AutoRUN",IDC_BTN_AUTORUN,145,5,72,21,BS_BITMAP
+    PUSHBUTTON      "STOP",IDC_BUTTON_STOP_AUTOTEST,223,5,27,21,WS_DISABLED
+    EDITTEXT        IDC_EDIT_AGING,79,5,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "t",IDC_BUTTON_SEND,145,20,15,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_COM,90,5,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "T",IDC_BUTTON_SEND2,161,22,15,14,NOT WS_VISIBLE
+    PUSHBUTTON      "x",IDC_BUTTON_SEND3,179,21,15,14,NOT WS_VISIBLE
+    PUSHBUTTON      "y",IDC_BUTTON_SEND4,197,23,15,14,NOT WS_VISIBLE
+    CONTROL         "외부입력",IDC_CHECK_EXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,251,15,48,10
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONNECT,86,23,50,11
+END
+
+IDD_DIALOG_AUTORUN_CHOICE DIALOGEX 0, 0, 363, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AutoRun"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "N3-AI16",IDC_RADIO_N3_AI16,"Button",BS_AUTORADIOBUTTON | BS_VCENTER | BS_PUSHLIKE | NOT WS_VISIBLE | WS_GROUP,27,19,72,40
+    CONTROL         "N3-AO08",IDC_RADIO_N3_AO8,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,27,59,72,40
+    CONTROL         "SIO-AI8AO4F",IDC_RADIO_SIO_AI8AO4,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,117,19,72,24
+    CONTROL         "SIO-AI8F",IDC_RADIO_SIO_AI8,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,117,47,72,24
+    CONTROL         "SIO-AO4F",IDC_RADIO_SIO_AO4,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,117,75,72,24
+    CONTROL         "SIO-AI4RB",IDC_RADIO_SIO_AI4RB,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,207,19,71,40
+    CONTROL         "SIO-AO4RB",IDC_RADIO_SIO_AO4RB,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,207,59,71,40
+    GROUPBOX        "N3-AIO",IDC_STATIC,17,7,90,99,NOT WS_VISIBLE
+    GROUPBOX        "SIO-AIO",IDC_STATIC,107,7,90,99,NOT WS_VISIBLE
+    GROUPBOX        "SIO-AIOxRB",IDC_STATIC,197,7,90,99,NOT WS_VISIBLE
+    PUSHBUTTON      "시작",IDOK,250,19,106,40
+    PUSHBUTTON      "취소",IDCANCEL,250,59,106,40
+    EDITTEXT        IDC_EDIT_SERIAL_0,117,30,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERIAL_1,27,30,80,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERIAL_2,117,66,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERIAL_3,27,65,80,14,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_STATIC_0,117,19,19,8
+    LTEXT           "Static",IDC_STATIC_1,27,20,19,8
+    LTEXT           "Static",IDC_STATIC_2,117,57,19,8
+    LTEXT           "Static",IDC_STATIC_3,27,54,19,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,3,0,0
+ PRODUCTVERSION 2,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comments", "2014.07.18"
+            VALUE "CompanyName", "Ajinextek"
+            VALUE "FileDescription", "AXT Distributed Slave Test S/W"
+            VALUE "FileVersion", "C.2.3.0"
+            VALUE "InternalName", "ADST3_VS80.exe"
+            VALUE "LegalCopyright", "Copyright(c) 2014 AJINEXTEK CO.,LTD, All Rights Reserved."
+            VALUE "OriginalFilename", "ADST3_VS80.exe"
+            VALUE "ProductName", "ADST3"
+            VALUE "ProductVersion", "C.2.3.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ADST3_VS80_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 371
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 443
+    END
+
+    IDD_DIALOG_AUTORUN_CHOICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        VERTGUIDE, 17
+        VERTGUIDE, 27
+        VERTGUIDE, 107
+        VERTGUIDE, 117
+        VERTGUIDE, 207
+        VERTGUIDE, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+        HORZGUIDE, 19
+        HORZGUIDE, 59
+        HORZGUIDE, 99
+        HORZGUIDE, 106
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_BTN_IDLE        BITMAP                  "res\\IdleBtn_s.bmp"
+IDB_BMP_BTN_START       BITMAP                  "res\\StartBtn_s.bmp"
+IDB_BMP_BTN_STOP        BITMAP                  "res\\StopBtn_s.bmp"
+IDB_BMP_FILE_OPEN       BITMAP                  "res\\Open.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About ADST3_VS80..."
+    IDS_FLUKE_PARAM_DIR     "config\\FLUKE_PARAM.cfg"
+    IDS_AIO_PARAM_DIR       "config\\AIO_PARAM.cfg"
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\ADST3_VS80.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ADST3_VS80.ico"
+IDI_NO3                 ICON                    "res\\No3_32x32x256.ico"
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\ADST3_VS80.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

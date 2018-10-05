@@ -1,0 +1,27 @@
+﻿빌드 시작: 2018-10-04 오후 6:31:24
+     1>2 노드의 "E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\ADST3_VS80\ADST3_VS80.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\ADST3_VS80\include" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ADST3_VS80.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ADST3_VS80Dlg.cpp
+         ADST3_VS80Dlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Release\ADST3_VS80.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Release\ADST3_VS80.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Release\ADST3_VS80.lib" /MACHINE:X86 /SAFESEH Release\ADST3_VS80.res
+         Release\ADST3_VS80.obj
+         Release\ADST3_VS80Dlg.obj
+         Release\AutorunDialog.obj
+         Release\BtnST.obj
+         Release\ColorControl.obj
+         Release\XLAutomation.obj
+         Release\XLEzAutomation.obj
+         Release\ListCtrlFF.obj
+         Release\PYH_Comm.obj
+         Release\Socket.obj
+         Release\StaticTransBkg.obj
+         Release\stdafx.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         ADST3_VS80.vcxproj -> E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Release\ADST3_VS80.exe
+     1>"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\ADST3_VS80\ADST3_VS80.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.22

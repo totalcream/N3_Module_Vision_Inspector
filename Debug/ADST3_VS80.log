@@ -1,0 +1,50 @@
+﻿빌드 시작: 2018-07-20 오전 10:28:11
+     1>2 노드의 "E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\ADST3_VS80\ADST3_VS80.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ADST3_VS80.pch.codeanalysis" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt /FS   /analyze:quiet stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ADST3_VS80.pch.codeanalysis" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt /FS   /analyze:quiet ADST3_VS80.cpp ADST3_VS80Dlg.cpp BtnST.cpp ColorControl.cpp ListCtrlFF.cpp PYH_Comm.cpp Socket.cpp StaticTransBkg.cpp
+         StaticTransBkg.cpp
+         Socket.cpp
+         PYH_Comm.cpp
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\pyh_comm.cpp(37): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\pyh_comm.cpp(64): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\pyh_comm.cpp(81): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\pyh_comm.cpp(92): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+         ListCtrlFF.cpp
+         ColorControl.cpp
+         BtnST.cpp
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\btnst.cpp(19): warning C4005: 'BS_TYPEMASK' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10729) : 'BS_TYPEMASK'의 이전 정의를 참조하십시오.
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\btnst.cpp(2089): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(323) : 'wcsncpy' 선언을 참조하십시오.
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\btnst.cpp(2319): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : 'wcscpy' 선언을 참조하십시오.
+         ADST3_VS80Dlg.cpp
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\adst3_vs80dlg.cpp(581): warning C4101: 'dwModuleID' :참조되지 않은 지역 변수입니다.
+     1>e:\download'old\program\adst3 v2.4(범용최종본 - 20161103)\1. source\adst3_v_c.2.3_uc_vs80\adst3_vs80\adst3_vs80dlg.cpp(2557): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         ADST3_VS80.cpp
+         C/C++ 코드 분석을 실행하고 있습니다...
+         코드를 생성하고 있습니다...
+     1>cl : 명령줄 warning D9028: 최소 다시 빌드에 실패했습니다. 정상 빌드로 되돌립니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\ADST3_VS80.res" ADST3_VS80.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Debug\ADST3_VS80.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Debug\ADST3_VS80.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Debug\ADST3_VS80.lib" /MACHINE:X86 /SAFESEH Debug\ADST3_VS80.res
+         Debug\ADST3_VS80.obj
+         Debug\ADST3_VS80Dlg.obj
+         Debug\BtnST.obj
+         Debug\ColorControl.obj
+         Debug\ListCtrlFF.obj
+         Debug\PYH_Comm.obj
+         Debug\Socket.obj
+         Debug\StaticTransBkg.obj
+         Debug\stdafx.obj
+     1>ADST3_VS80.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+     1>uafxcwd.lib(afxglobals.obj) : error LNK2005: "public: virtual __thiscall CMemDC::~CMemDC(void)" (??1CMemDC@@UAE@XZ)이(가) ListCtrlFF.obj에 이미 정의되어 있습니다.
+     1>E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\Debug\ADST3_VS80.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+     1>"E:\Download'old\Program\ADST3 V2.4(범용최종본 - 20161103)\1. Source\ADST3_V_C.2.3_UC_VS80\ADST3_VS80\ADST3_VS80.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:15.13
