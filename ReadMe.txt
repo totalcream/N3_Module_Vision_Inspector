@@ -9,6 +9,9 @@ Foundation Classes but is also a starting point for writing your application.
 This file contains a summary of what you will find in each of the files that
 make up your ADST3_VS80 application.
 
+this file contains a summary of what you will find in each of the files that
+make up your ADST3_VS80 application.
+
 ADST3_VS80.vcproj
     This is the main project file for VC++ projects generated using an application wizard. 
     It contains information about the version of Visual C++ that generated the file, and 
